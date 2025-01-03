@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="advanced_search_styles.css">
+    </head>
+    <body>
+        <a href="index.html" id="link_to_main_search">Google Search
+        </a>
+        <a href="google_advanced_search.html" class="adv_main_logo">
+            <img src="google_31.png" alt="Google Logo">
+        </a>
+        <h2 id="adv_head">Advanced Search</h2>
+        <form action="https://www.google.com/search" id="adv_form" method="get" target="_blank">
+            Find pages with
+            <div class="adv_text_input">all these words: <input type="text" name="q" class="adv_input"></div>
+            <div class="adv_text_input">this exact word or phrase: <input type="text" name="as_epq" class="adv_input"></div>
+            <div class="adv_text_input">any of these words: <input type="text" name="as_oq" class="adv_input"></div>
+            <div class="adv_text_input">none of these words: <input type="text" name="as_eq" class="adv_input"></div>
+            <input type="submit" value="Advanced Search" id="adv_submit_button">
+        </form>
+        <div id="adv_explanation">
+            <div class="explanation">Type the important words: tri colored terrier.</div>
+            <div class="explanation">Put the words in quotes: "rat terrier"</div>
+            <div class="explanation">Type OR between all the words you want: rat OR terrier.</div>
+            <div class="explanation">Put a minus sign before words you don't want: -rat terrier.</div>
+        </div>
+    </body>
+</html>

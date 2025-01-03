@@ -1,0 +1,59 @@
+.adv_main_logo{
+    text-align: center;
+    display: block;
+    width: 125px;
+    height: 30px;
+}
+
+#adv_head{
+    text-align: left;
+    color: rgb(186, 106, 26);
+    margin-top: 75px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 35px;
+}
+
+#adv_form{
+    display: grid;
+    gap: 20px;
+}
+.adv_text_input{
+    display: inline-block;
+    width: 800px;
+}
+
+.adv_input{
+    width: 400px;
+    font-size: medium;
+    margin-left: 200px;
+    position: fixed;
+    left: 80px;
+    height: 20px;
+}
+
+#adv_submit_button{
+    width: 110px;
+    text-align: center;
+    position: fixed;
+    left: 580px;
+    top: 500px;
+    color: white;
+    background-color: rgb(61, 107, 214);
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+#link_to_main_search{
+    position: absolute;
+    top: 0;
+    right: 0.2%;
+}
+
+#adv_explanation{
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    right: 550px;
+    top: 297px;
+}
